@@ -22,7 +22,7 @@ const JobCard = (props) => {
 
   const renderJob = () => {
       
-      return <div key={props.id} className="card-content">
+    return <div key={props.id} className="card-content">
         <ul onClick={show}>
           <li className="card-title">{props.job_title}</li>
           <div className="container-card-meta">
